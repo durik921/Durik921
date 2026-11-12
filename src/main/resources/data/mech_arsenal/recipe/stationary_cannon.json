@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "CAC",
+    "IRI"
+  ],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "S": {"item": "minecraft:iron_block"},
+    "C": {"item": "minecraft:copper_block"},
+    "A": {"item": "mech_arsenal:autocannon_mount"},
+    "R": {"item": "minecraft:redstone"}
+  },
+  "result": {
+    "id": "mech_arsenal:stationary_cannon",
+    "count": 1
+  }
+}

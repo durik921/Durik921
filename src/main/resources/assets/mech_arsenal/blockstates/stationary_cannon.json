@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":"mech_arsenal:block/stationary_cannon"},
+    "facing=east": {"model":"mech_arsenal:block/stationary_cannon","y":90},
+    "facing=south": {"model":"mech_arsenal:block/stationary_cannon","y":180},
+    "facing=west": {"model":"mech_arsenal:block/stationary_cannon","y":270}
+  }
+}

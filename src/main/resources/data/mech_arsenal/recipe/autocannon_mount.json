@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "RAR",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "A": {
+      "item": "mech_arsenal:autocannon"
+    }
+  },
+  "result": {
+    "id": "mech_arsenal:autocannon_mount",
+    "count": 1
+  }
+}

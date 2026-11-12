@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mech_arsenal:block/autocannon_mount"
+    },
+    "facing=east": {
+      "model": "mech_arsenal:block/autocannon_mount",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mech_arsenal:block/autocannon_mount",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mech_arsenal:block/autocannon_mount",
+      "y": 270
+    }
+  }
+}

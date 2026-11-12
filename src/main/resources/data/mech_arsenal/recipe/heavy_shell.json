@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    "IGI",
+    " II"
+  ],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "G": {"item": "minecraft:gunpowder"}
+  },
+  "result": {
+    "id": "mech_arsenal:heavy_shell",
+    "count": 2
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "textures": {
+    "hull": "mech_arsenal:block/armored_hull",
+    "metal": "mech_arsenal:block/machined_steel",
+    "brass": "mech_arsenal:block/hazard_amber",
+    "tip": "mech_arsenal:block/ceramic_armor",
+    "particle": "mech_arsenal:block/machined_steel"
+  },
+  "elements": [
+    {
+      "from": [6, 2, 4],
+      "to": [10, 9, 12],
+      "faces": {
+        "north": {"texture": "#brass"},
+        "east": {"texture": "#brass"},
+        "south": {"texture": "#brass"},
+        "west": {"texture": "#brass"},
+        "up": {"texture": "#brass"},
+        "down": {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [6, 9, 5],
+      "to": [10, 11, 10],
+      "faces": {
+        "north": {"texture": "#tip"},
+        "east": {"texture": "#tip"},
+        "south": {"texture": "#tip"},
+        "west": {"texture": "#tip"},
+        "up": {"texture": "#tip"},
+        "down": {"texture": "#brass"}
+      }
+    },
+    {
+      "from": [6, 11, 6],
+      "to": [10, 12, 9],
+      "faces": {
+        "north": {"texture": "#tip"},
+        "east": {"texture": "#tip"},
+        "south": {"texture": "#tip"},
+        "west": {"texture": "#tip"},
+        "up": {"texture": "#tip"},
+        "down": {"texture": "#tip"}
+      }
+    },
+    {
+      "from": [5, 1, 4],
+      "to": [11, 3, 12],
+      "faces": {
+        "north": {"texture": "#metal"},
+        "east": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west": {"texture": "#metal"},
+        "up": {"texture": "#metal"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [5, 3, 5],
+      "to": [11, 4, 11],
+      "faces": {
+        "north": {"texture": "#brass"},
+        "east": {"texture": "#brass"},
+        "south": {"texture": "#brass"},
+        "west": {"texture": "#brass"},
+        "up": {"texture": "#brass"},
+        "down": {"texture": "#metal"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 45],
+      "translation": [0, 2, 1],
+      "scale": [0.6, 0.6, 0.6]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 0, 45],
+      "translation": [0, 2, 1],
+      "scale": [0.6, 0.6, 0.6]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.65, 0.65, 0.65]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.65, 0.65, 0.65]
+    },
+    "gui": {
+      "rotation": [25, 45, 0],
+      "scale": [0.9, 0.9, 0.9]
+    },
+    "ground": {
+      "translation": [0, 2, 0],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

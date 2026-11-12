@@ -1,0 +1,197 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "hull": "mech_arsenal:block/armored_hull",
+    "armor": "mech_arsenal:block/ceramic_armor",
+    "steel": "mech_arsenal:block/machined_steel",
+    "warning": "mech_arsenal:block/hazard_amber",
+    "lens": "mech_arsenal:block/target_lens",
+    "olive": "mech_arsenal:block/field_olive",
+    "case_side": "mech_arsenal:block/ammo_case_side",
+    "case_top": "mech_arsenal:block/ammo_case_top",
+    "case_end": "mech_arsenal:block/ammo_case_end",
+    "particle": "mech_arsenal:block/field_olive"
+  },
+  "elements": [
+    {
+      "from": [1, 1, 2],
+      "to": [15, 13, 14],
+      "faces": {
+        "north": {"texture": "#case_end"},
+        "east": {"texture": "#case_side"},
+        "south": {"texture": "#case_end"},
+        "west": {"texture": "#case_side"},
+        "up": {"texture": "#case_top"},
+        "down": {"texture": "#steel"}
+      }
+    },
+    {
+      "from": [0, 2, 4],
+      "to": [1, 11, 12],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [15, 2, 4],
+      "to": [16, 11, 12],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [1, 13, 2],
+      "to": [15, 15, 14],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#armor"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [3, 15, 4],
+      "to": [13, 16, 12],
+      "faces": {
+        "north": {"texture": "#case_end"},
+        "east": {"texture": "#case_side"},
+        "south": {"texture": "#case_end"},
+        "west": {"texture": "#case_side"},
+        "up": {"texture": "#case_top"},
+        "down": {"texture": "#steel"}
+      }
+    },
+    {
+      "from": [3, 5, 0],
+      "to": [13, 7, 2],
+      "faces": {
+        "north": {"texture": "#warning"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#warning"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [3, 8, 0],
+      "to": [13, 11, 2],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#hull"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [4, 8, 0],
+      "to": [6, 10, 1],
+      "faces": {
+        "north": {"texture": "#lens"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#lens"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [7, 8, 0],
+      "to": [9, 10, 1],
+      "faces": {
+        "north": {"texture": "#lens"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#lens"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [10, 8, 0],
+      "to": [12, 10, 1],
+      "faces": {
+        "north": {"texture": "#lens"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#lens"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [2, 2, 5],
+      "to": [4, 4, 11],
+      "faces": {
+        "north": {"texture": "#armor"},
+        "east": {"texture": "#warning"},
+        "south": {"texture": "#armor"},
+        "west": {"texture": "#warning"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [12, 2, 5],
+      "to": [14, 4, 11],
+      "faces": {
+        "north": {"texture": "#armor"},
+        "east": {"texture": "#warning"},
+        "south": {"texture": "#armor"},
+        "west": {"texture": "#warning"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [4, 11, 5],
+      "to": [12, 13, 11],
+      "faces": {
+        "north": {"texture": "#armor"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#olive"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#armor"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [5, 3, 6],
+      "to": [11, 4, 10],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#lens"},
+        "down": {"texture": "#hull"}
+      }
+    },
+    {
+      "from": [5, 4, 1],
+      "to": [11, 5, 2],
+      "faces": {
+        "north": {"texture": "#steel"},
+        "east": {"texture": "#steel"},
+        "south": {"texture": "#steel"},
+        "west": {"texture": "#steel"},
+        "up": {"texture": "#steel"},
+        "down": {"texture": "#hull"}
+      }
+    }
+  ]
+}

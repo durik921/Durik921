@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mech_arsenal:block/ammo_magazine"
+    },
+    "facing=east": {
+      "model": "mech_arsenal:block/ammo_magazine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mech_arsenal:block/ammo_magazine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mech_arsenal:block/ammo_magazine",
+      "y": 270
+    }
+  }
+}

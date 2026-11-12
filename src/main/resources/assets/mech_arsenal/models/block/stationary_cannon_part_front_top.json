@@ -1,0 +1,29 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "hull": "mech_arsenal:block/armored_hull",
+    "steel": "mech_arsenal:block/machined_steel",
+    "armor": "mech_arsenal:block/ceramic_armor",
+    "warning": "mech_arsenal:block/hazard_amber",
+    "bore": "mech_arsenal:block/cannon_bore",
+    "lens": "mech_arsenal:block/target_lens",
+    "particle": "mech_arsenal:block/armored_hull"
+  },
+  "elements": [
+    {"from":[6,0,4],"to":[10,2,16],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[4,2,4],"to":[12,4,16],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[2,4,4],"to":[14,12,16],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[4,12,4],"to":[12,14,16],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[6,14,4],"to":[10,16,16],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[6,0,0],"to":[10,2,4],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#hull"},"down":{"texture":"#steel"}}},
+    {"from":[4,2,0],"to":[12,4,4],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#hull"},"down":{"texture":"#steel"}}},
+    {"from":[2,4,0],"to":[14,12,4],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[4,12,0],"to":[12,14,4],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#hull"},"down":{"texture":"#steel"}}},
+    {"from":[6,14,0],"to":[10,16,4],"faces":{"north":{"texture":"#steel"},"east":{"texture":"#hull"},"south":{"texture":"#steel"},"west":{"texture":"#hull"},"up":{"texture":"#hull"},"down":{"texture":"#steel"}}},
+    {"from":[5,5,0],"to":[11,11,1],"faces":{"north":{"texture":"#armor"},"east":{"texture":"#steel"},"south":{"texture":"#steel"},"west":{"texture":"#steel"},"up":{"texture":"#armor"},"down":{"texture":"#steel"}}},
+    {"from":[6,6,-0.05],"to":[10,10,1],"faces":{"north":{"texture":"#bore"},"east":{"texture":"#steel"},"south":{"texture":"#steel"},"west":{"texture":"#steel"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[2,6,1],"to":[4,10,3],"faces":{"north":{"texture":"#warning"},"east":{"texture":"#steel"},"south":{"texture":"#hull"},"west":{"texture":"#steel"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[12,6,1],"to":[14,10,3],"faces":{"north":{"texture":"#warning"},"east":{"texture":"#steel"},"south":{"texture":"#hull"},"west":{"texture":"#steel"},"up":{"texture":"#steel"},"down":{"texture":"#steel"}}},
+    {"from":[4,13,2],"to":[12,15,4],"faces":{"north":{"texture":"#armor"},"east":{"texture":"#steel"},"south":{"texture":"#hull"},"west":{"texture":"#steel"},"up":{"texture":"#armor"},"down":{"texture":"#steel"}}}
+  ]
+}

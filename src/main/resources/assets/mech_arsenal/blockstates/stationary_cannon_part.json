@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,part=rear_top":{"model":"mech_arsenal:block/stationary_cannon_part_rear_top"},
+    "facing=east,part=rear_top":{"model":"mech_arsenal:block/stationary_cannon_part_rear_top","y":90},
+    "facing=south,part=rear_top":{"model":"mech_arsenal:block/stationary_cannon_part_rear_top","y":180},
+    "facing=west,part=rear_top":{"model":"mech_arsenal:block/stationary_cannon_part_rear_top","y":270},
+    "facing=north,part=middle_top":{"model":"mech_arsenal:block/stationary_cannon_part_middle_top"},
+    "facing=east,part=middle_top":{"model":"mech_arsenal:block/stationary_cannon_part_middle_top","y":90},
+    "facing=south,part=middle_top":{"model":"mech_arsenal:block/stationary_cannon_part_middle_top","y":180},
+    "facing=west,part=middle_top":{"model":"mech_arsenal:block/stationary_cannon_part_middle_top","y":270},
+    "facing=north,part=front_top":{"model":"mech_arsenal:block/stationary_cannon_part_front_top"},
+    "facing=east,part=front_top":{"model":"mech_arsenal:block/stationary_cannon_part_front_top","y":90},
+    "facing=south,part=front_top":{"model":"mech_arsenal:block/stationary_cannon_part_front_top","y":180},
+    "facing=west,part=front_top":{"model":"mech_arsenal:block/stationary_cannon_part_front_top","y":270}
+  }
+}
